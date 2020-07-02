@@ -14,7 +14,7 @@ namespace Week2_API.Controllers
         HttpClient httpClient;
 
         static string BASE_URL = "https://developer.nps.gov/api/v1/";
-        static string API_KEY = "negqHNjoffQ5Tvxf2M4dnzsROxoZ8MSuC3hDaXaZ"; //Add your API key here inside ""
+        static string API_KEY = "negqHNjoffQ5Tvxf2M4dnzsROxoZ8MSuC3hDaXaZ"; //API Key
 
         // Obtaining the API key is easy. The same key should be usable across the entire
         // data.gov developer network, i.e. all data sources on data.gov.
