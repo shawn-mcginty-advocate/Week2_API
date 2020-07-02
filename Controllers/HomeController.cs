@@ -45,7 +45,7 @@ namespace Week2_API.Controllers
 
                     if (!parksData.Equals(""))
                     {
-                        //JsonConvert is part of the NewtonSoft.Json Nuget package
+                        //JsonConvert is part of the NewtonSoft.Json Nuget package. Add Extension
                         parks = JsonConvert.DeserializeObject<Parks>(parksData);
                     }
                 }
